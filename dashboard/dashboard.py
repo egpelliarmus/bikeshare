@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load dataset (pastikan path dataset sesuai)
-df_day = pd.read_csv('data_daily.csv')  # Contoh data harian
-df_hour = pd.read_csv('data_hourly.csv')  # Contoh data per jam
+df_day = pd.read_csv('dashboard/data_daily.csv')  # Contoh data harian
+df_hour = pd.read_csv('dashboard/data_hourly.csv')  # Contoh data per jam
 
 # Judul Dashboard
 st.title('Bike Rentals Dashboard')
